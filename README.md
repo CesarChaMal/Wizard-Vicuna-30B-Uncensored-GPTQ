@@ -15,7 +15,7 @@ inference: false
 </div>
 <div style="display: flex; justify-content: space-between; width: 100%;">
     <div style="display: flex; flex-direction: column; align-items: flex-start;">
-        <p><a href="https://discord.gg/rSU9f2X3">Chat & support: my new Discord server</a></p>
+        <p><a href="https://discord.gg/Jq4vkcDakD">Chat & support: my new Discord server</a></p>
     </div>
     <div style="display: flex; flex-direction: column; align-items: flex-end;">
         <p><a href="https://www.patreon.com/TheBlokeAI">Want to contribute? TheBloke's Patreon page</a></p>
@@ -57,7 +57,7 @@ Open the text-generation-webui UI as normal.
 
 This will work with all versions of GPTQ-for-LLaMa. It has maximum compatibility
 
-It was created without group_size to minimise VRAM usage, and with `--act-order` to improve inference quality. 
+It was created without group_size to minimise VRAM usage, and with `--act-order` to improve inference quality.
 
 * `Wizard-Vicuna-30B-Uncensored-GPTQ-4bit.act-order.safetensors`
   * Works with all versions of GPTQ-for-LLaMa code, both Triton and CUDA branches
@@ -74,7 +74,7 @@ It was created without group_size to minimise VRAM usage, and with `--act-order`
 
 For further support, and discussions on these models and AI in general, join us at:
 
-[TheBloke AI's Discord server](https://discord.gg/UBgz4VXf)
+[TheBloke AI's Discord server](https://discord.gg/Jq4vkcDakD)
 
 ## Thanks, and how to contribute.
 
@@ -84,14 +84,14 @@ I've had a lot of people ask if they can contribute. I enjoy providing models an
 
 If you're able and willing to contribute it will be most gratefully received and will help me to keep providing more models, and to start work on new AI projects.
 
-Donaters will get priority support on any and all AI/LLM/model questions and requests, access to a private Discord room, plus other benefits
+Donaters will get priority support on any and all AI/LLM/model questions and requests, access to a private Discord room, plus other benefits.
 
 * Patreon: https://patreon.com/TheBlokeAI
 * Ko-Fi: https://ko-fi.com/TheBlokeAI
 
 **Patreon special mentions**: Aemon Algiz, Dmitriy Samsonov, Nathan LeClaire, Trenton Dambrowitz, Mano Prime, David Flickinger, vamX, Nikolai Manek, senxiiz, Khalefa Al-Ahmad, Illia Dulskyi, Jonathan Leane, Talal Aujan, V. Lukas, Joseph William Delisle, Pyrater, Oscar Rangel, Lone Striker, Luke Pendergrass, Eugene Pentland, Sebastain Graf, Johann-Peter Hartman.
 
-Thank you to all my generous patrons and donaters.
+Thank you to all my generous patrons and donaters!
 <!-- footer end -->
 
 # Original model card
@@ -100,9 +100,9 @@ This is [wizard-vicuna-13b](https://huggingface.co/junelee/wizard-vicuna-13b) tr
 
 Shout out to the open source AI/ML community, and everyone who helped me out.
 
-Note:  
+Note:
 
-An uncensored model has no guardrails.  
+An uncensored model has no guardrails.
 
 You are responsible for anything you do with the model, just as you are responsible for anything you do with any dangerous object such as a knife, gun, lighter, or car.
 
