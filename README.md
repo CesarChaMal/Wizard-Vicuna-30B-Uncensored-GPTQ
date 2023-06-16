@@ -37,19 +37,18 @@ It is the result of quantising to 4bit using [GPTQ-for-LLaMa](https://github.com
 
 ## How to easily download and use this model in text-generation-webui
 
-Open the text-generation-webui UI as normal.
+Please make sure you're using the latest version of text-generation-webui
 
 1. Click the **Model tab**.
 2. Under **Download custom model or LoRA**, enter `TheBloke/Wizard-Vicuna-30B-Uncensored-GPTQ`.
 3. Click **Download**.
-4. Wait until it says it's finished downloading.
-5. Click the **Refresh** icon next to **Model** in the top left.
-6. In the **Model drop-down**: choose the model you just downloaded, `Wizard-Vicuna-30B-Uncensored-GPTQ`.
-7. If you see an error in the bottom right, ignore it - it's temporary.
-8. Fill out the `GPTQ parameters` on the right: `Bits = 4`, `Groupsize = None`, `model_type = Llama`
-9. Click **Save settings for this model** in the top right.
-10. Click **Reload the Model** in the top right.
-11. Once it says it's loaded, click the **Text Generation tab** and enter a prompt!
+4. The model will start downloading. Once it's finished it will say "Done"
+5. In the top left, click the refresh icon next to **Model**.
+6. In the **Model** dropdown, choose the model you just downloaded: `Wizard-Vicuna-30B-Uncensored-GPTQ`
+7. The model will automatically load, and is now ready for use!
+8. If you want any custom settings, set them and then click **Save settings for this model** followed by **Reload the Model** in the top right.
+  * Note that you do not need to set GPTQ parameters any more. These should all be set to default values, as they are now set automatically from the file `quantize_config.json`.
+9. Once you're ready, click the **Text Generation tab** and enter a prompt to get started!
 
 ## Provided files
 
