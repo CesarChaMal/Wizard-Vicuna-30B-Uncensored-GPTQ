@@ -11,17 +11,20 @@ tags:
 ---
 
 <!-- header start -->
-<div style="width: 100%;">
-    <img src="https://i.imgur.com/EBdldam.jpg" alt="TheBlokeAI" style="width: 100%; min-width: 400px; display: block; margin: auto;">
+<!-- 200823 -->
+<div style="width: auto; margin-left: auto; margin-right: auto">
+<img src="https://i.imgur.com/EBdldam.jpg" alt="TheBlokeAI" style="width: 100%; min-width: 400px; display: block; margin: auto;">
 </div>
 <div style="display: flex; justify-content: space-between; width: 100%;">
     <div style="display: flex; flex-direction: column; align-items: flex-start;">
-        <p><a href="https://discord.gg/theblokeai">Chat & support: my new Discord server</a></p>
+        <p style="margin-top: 0.5em; margin-bottom: 0em;"><a href="https://discord.gg/theblokeai">Chat & support: TheBloke's Discord server</a></p>
     </div>
     <div style="display: flex; flex-direction: column; align-items: flex-end;">
-        <p><a href="https://www.patreon.com/TheBlokeAI">Want to contribute? TheBloke's Patreon page</a></p>
+        <p style="margin-top: 0.5em; margin-bottom: 0em;"><a href="https://www.patreon.com/TheBlokeAI">Want to contribute? TheBloke's Patreon page</a></p>
     </div>
 </div>
+<div style="text-align:center; margin-top: 0em; margin-bottom: 0em"><p style="margin-top: 0.25em; margin-bottom: 0em;">TheBloke's LLM work is generously supported by a grant from <a href="https://a16z.com">andreessen horowitz (a16z)</a></p></div>
+<hr style="margin-top: 1.0em; margin-bottom: 1.0em;">
 <!-- header end -->
 
 # Eric Hartford's Wizard-Vicuna-30B-Uncensored GPTQ
@@ -170,6 +173,7 @@ The files provided will work with AutoGPTQ (CUDA and Triton modes), GPTQ-for-LLa
 ExLlama works with Llama models in 4-bit. Please see the Provided Files table above for per-file compatibility.
 
 <!-- footer start -->
+<!-- 200823 -->
 ## Discord
 
 For further support, and discussions on these models and AI in general, join us at:
@@ -189,11 +193,14 @@ Donaters will get priority support on any and all AI/LLM/model questions and req
 * Patreon: https://patreon.com/TheBlokeAI
 * Ko-Fi: https://ko-fi.com/TheBlokeAI
 
-**Special thanks to**: Luke from CarbonQuill, Aemon Algiz.
+**Special thanks to**: Aemon Algiz.
 
-**Patreon special mentions**: Space Cruiser, Nikolai Manek, Sam, Chris McCloskey, Rishabh Srivastava, Kalila, Spiking Neurons AB, Khalefa Al-Ahmad, WelcomeToTheClub, Chadd, Lone Striker, Viktor Bowallius, Edmond Seymore, Ai Maven, Chris Smitley, Dave, Alexandros Triantafyllidis, Luke @flexchar, Elle, ya boyyy, Talal Aujan, Alex , Jonathan Leane, Deep Realms, Randy H, subjectnull, Preetika Verma, Joseph William Delisle, Michael Levine, chris gileta, K, Oscar Rangel, LangChain4j, Trenton Dambrowitz, Eugene Pentland, Johann-Peter Hartmann, Femi Adebogun, Illia Dulskyi, senxiiz, Daniel P. Andersen, Sean Connelly, Artur Olbinski, RoA, Mano Prime, Derek Yates, Raven Klaugh, David Flickinger, Willem Michiel, Pieter, Willian Hasse, vamX, Luke Pendergrass, webtim, Ghost , Rainer Wilmers, Nathan LeClaire, Will Dee, Cory Kujawski, John Detwiler, Fred von Graf, biorpg, Iucharbius , Imad Khwaja, Pierre Kircher, terasurfer , Asp the Wyvern, John Villwock, theTransient, zynix , Gabriel Tamborski, Fen Risland, Gabriel Puliatti, Matthew Berman, Pyrater, SuperWojo, Stephen Murray, Karl Bernard, Ajan Kanaga, Greatston Gnanesh, Junyu Yang.
+**Patreon special mentions**: Sam, theTransient, Jonathan Leane, Steven Wood, webtim, Johann-Peter Hartmann, Geoffrey Montalvo, Gabriel Tamborski, Willem Michiel, John Villwock, Derek Yates, Mesiah Bishop, Eugene Pentland, Pieter, Chadd, Stephen Murray, Daniel P. Andersen, terasurfer, Brandon Frisco, Thomas Belote, Sid, Nathan LeClaire, Magnesian, Alps Aficionado, Stanislav Ovsiannikov, Alex, Joseph William Delisle, Nikolai Manek, Michael Davis, Junyu Yang, K, J, Spencer Kim, Stefan Sabev, Olusegun Samson, transmissions 11, Michael Levine, Cory Kujawski, Rainer Wilmers, zynix, Kalila, Luke @flexchar, Ajan Kanaga, Mandus, vamX, Ai Maven, Mano Prime, Matthew Berman, subjectnull, Vitor Caleffi, Clay Pascal, biorpg, alfie_i, 阿明, Jeffrey Morgan, ya boyyy, Raymond Fosdick, knownsqashed, Olakabola, Leonard Tan, ReadyPlayerEmma, Enrico Ros, Dave, Talal Aujan, Illia Dulskyi, Sean Connelly, senxiiz, Artur Olbinski, Elle, Raven Klaugh, Fen Risland, Deep Realms, Imad Khwaja, Fred von Graf, Will Dee, usrbinkat, SuperWojo, Alexandros Triantafyllidis, Swaroop Kallakuri, Dan Guido, John Detwiler, Pedro Madruga, Iucharbius, Viktor Bowallius, Asp the Wyvern, Edmond Seymore, Trenton Dambrowitz, Space Cruiser, Spiking Neurons AB, Pyrater, LangChain4j, Tony Hughes, Kacper Wikieł, Rishabh Srivastava, David Ziegler, Luke Pendergrass, Andrey, Gabriel Puliatti, Lone Striker, Sebastain Graf, Pierre Kircher, Randy H, NimbleBox.ai, Vadim, danny, Deo Leter
+
 
 Thank you to all my generous patrons and donaters!
+
+And thank you again to a16z for their generous grant.
 
 <!-- footer end -->
 
@@ -204,9 +211,9 @@ This is [wizard-vicuna-13b](https://huggingface.co/junelee/wizard-vicuna-13b) tr
 
 Shout out to the open source AI/ML community, and everyone who helped me out.
 
-Note:  
+Note:
 
-An uncensored model has no guardrails.  
+An uncensored model has no guardrails.
 
 You are responsible for anything you do with the model, just as you are responsible for anything you do with any dangerous object such as a knife, gun, lighter, or car.
 
