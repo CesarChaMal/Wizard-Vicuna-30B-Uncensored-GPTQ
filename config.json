@@ -1,24 +1,35 @@
 {
-    "_name_or_path": "/workspace/process/wizard-vicuna-30b/HF/",
-    "architectures": [
-        "LlamaForCausalLM"
-    ],
-    "bos_token_id": 1,
-    "eos_token_id": 2,
-    "hidden_act": "silu",
-    "hidden_size": 6656,
-    "initializer_range": 0.02,
-    "intermediate_size": 17920,
-    "max_position_embeddings": 2048,
-    "max_sequence_length": 2048,
-    "model_type": "llama",
-    "num_attention_heads": 52,
-    "num_hidden_layers": 60,
-    "pad_token_id": 0,
-    "rms_norm_eps": 1e-06,
-    "tie_word_embeddings": false,
-    "torch_dtype": "float16",
-    "transformers_version": "4.30.0.dev0",
-    "use_cache": true,
-    "vocab_size": 32000
+  "_name_or_path": "/workspace/process/wizard-vicuna-30b/HF/",
+  "architectures": [
+    "LlamaForCausalLM"
+  ],
+  "bos_token_id": 1,
+  "eos_token_id": 2,
+  "hidden_act": "silu",
+  "hidden_size": 6656,
+  "initializer_range": 0.02,
+  "intermediate_size": 17920,
+  "max_position_embeddings": 2048,
+  "max_sequence_length": 2048,
+  "model_type": "llama",
+  "num_attention_heads": 52,
+  "num_hidden_layers": 60,
+  "pad_token_id": 0,
+  "rms_norm_eps": 1e-06,
+  "tie_word_embeddings": false,
+  "torch_dtype": "float16",
+  "transformers_version": "4.30.0.dev0",
+  "use_cache": true,
+  "vocab_size": 32000,
+  "quantization_config": {
+    "bits": 8,
+    "group_size": 128,
+    "damp_percent": 0.01,
+    "desc_act": false,
+    "sym": true,
+    "true_sequential": true,
+    "model_name_or_path": null,
+    "model_file_base_name": "model",
+    "quant_method": "gptq"
+  }
 }

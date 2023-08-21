@@ -6,5 +6,5 @@
   "sym": true,
   "true_sequential": true,
   "model_name_or_path": null,
-  "model_file_base_name": null
+  "model_file_base_name": "model"
 }
