@@ -66,15 +66,8 @@ A chat between a curious user and an artificial intelligence assistant. The assi
 ```
 
 <!-- prompt-template end -->
-<!-- licensing start -->
-## Licensing
 
-The creator of the source model has listed its license as `other`, and this quantization has therefore used that same license.
 
-As this model is based on Llama 2, it is also subject to the Meta Llama 2 license terms, and the license files for that are additionally included. It should therefore be considered as being claimed to be licensed under both licenses. I contacted Hugging Face for clarification on dual licensing but they do not yet have an official position. Should this change, or should Meta provide any feedback on this situation, I will update this section accordingly.
-
-In the meantime, any questions regarding licensing, and in particular how these two licenses might interact, should be directed to the original model repository: [Eric Hartford's Wizard-Vicuna-30B-Uncensored](https://huggingface.co/ehartford/Wizard-Vicuna-30B-Uncensored).
-<!-- licensing end -->
 <!-- README_GPTQ.md-provided-files start -->
 ## Provided files and GPTQ parameters
 
