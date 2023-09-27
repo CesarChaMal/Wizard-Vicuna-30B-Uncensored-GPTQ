@@ -1,13 +1,15 @@
 ---
-base_model: https://huggingface.co/ehartford/Wizard-Vicuna-30B-Uncensored
-datasets:
-- ehartford/wizard_vicuna_70k_unfiltered
-inference: false
 language:
 - en
 license: other
-model_creator: Eric Hartford
+tags:
+- uncensored
+datasets:
+- ehartford/wizard_vicuna_70k_unfiltered
 model_name: Wizard Vicuna 30B Uncensored
+base_model: ehartford/Wizard-Vicuna-30B-Uncensored
+inference: false
+model_creator: Eric Hartford
 model_type: llama
 prompt_template: 'A chat between a curious user and an artificial intelligence assistant.
   The assistant gives helpful, detailed, and polite answers to the user''s questions.
@@ -15,8 +17,6 @@ prompt_template: 'A chat between a curious user and an artificial intelligence a
 
   '
 quantized_by: TheBloke
-tags:
-- uncensored
 ---
 
 <!-- header start -->
